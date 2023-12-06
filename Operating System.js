@@ -1,5 +1,5 @@
 function Hint1() {
-    document.getElementById("Explain01").innerHTML = "Programs that run on electronic devices";
+    document.getElementById("Explain01").innerHTML = "Job queue by the job scheduler";
 }
 
 function ExplainWrong1() {
@@ -35,7 +35,7 @@ function ExplainCorrect1() {
 
 // NUMBER 2
 function Hint2() {
-    document.getElementById("Explain02").innerHTML = "Person or organization";
+    document.getElementById("Explain02").innerHTML = "Terminates by the operating system";
 }
 
 function ExplainWrong2() {
@@ -70,7 +70,7 @@ function ExplainCorrect2() {
 
 //NUMBER 3
 function Hint3() {
-    document.getElementById("Explain03").innerHTML = "Support language for software developers";
+    document.getElementById("Explain03").innerHTML = "Operating system to manage information about a process";
 }
 
 function ExplainWrong3() {
@@ -105,7 +105,7 @@ function ExplainCorrect3() {
 
 //NUMBER 4
 function Hint4() {
-    document.getElementById("Explain04").innerHTML = "Language used to add layout and visual effects to HTML elements";
+    document.getElementById("Explain04").innerHTML = "Broken down into two classes";
 }
 
 function ExplainWrong4() {
@@ -140,7 +140,7 @@ function ExplainCorrect4() {
 
 //NUMBER 5
 function Hint5() {
-    document.getElementById("Explain05").innerHTML = "Mark Zuckerberg";
+    document.getElementById("Explain05").innerHTML = "Address space of a user process";
 }
 
 function ExplainWrong5() {
@@ -175,7 +175,7 @@ function ExplainCorrect5() {
 
 //NUMBER 6
 function Hint6() {
-    document.getElementById("Explain06").innerHTML = "Process of planning, designing, creating, testing, and deploying";
+    document.getElementById("Explain06").innerHTML = "Completion of an I/O operation";
 }
 
 function ExplainWrong6() {
@@ -210,7 +210,7 @@ function ExplainCorrect6() {
 
 //NUMBER 7
 function Hint7() {
-    document.getElementById("Explain07").innerHTML = "Executed by tapping";
+    document.getElementById("Explain07").innerHTML = "The process no longer uses any system resources";
 }
 
 function ExplainWrong7() {
@@ -245,7 +245,7 @@ function ExplainCorrect7() {
 
 //NUMBER 8
 function Hint8() {
-    document.getElementById("Explain08").innerHTML = "Can be used offline";
+    document.getElementById("Explain08").innerHTML = "Operating system to shut down suddenly";
 }
 
 function ExplainWrong8() {
@@ -280,7 +280,7 @@ function ExplainCorrect8() {
 
 //NUMBER 9
 function Hint9() {
-    document.getElementById("Explain09").innerHTML = "Process of planning, designing, creating, testing, and deploying";
+    document.getElementById("Explain09").innerHTML = "Management of platform resources";
 }
 
 function ExplainWrong9() {
@@ -315,7 +315,7 @@ function ExplainCorrect9() {
 
 //NUMBER 10
 function Hint10() {
-    document.getElementById("Explain010").innerHTML = "Official online store for digital media";
+    document.getElementById("Explain010").innerHTML = "Manipulate data during the execution of instructions";
 }
 
 function ExplainWrong10() {
