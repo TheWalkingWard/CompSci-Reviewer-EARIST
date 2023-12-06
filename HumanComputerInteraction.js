@@ -53,7 +53,7 @@ function ExplainWrong2() {
 }
 
 function ExplainCorrect2() {
-    document.getElementById("Explain02").innerHTML = "You are Correct! \n B. Address a place where a person or organization may be communicated with.";
+    document.getElementById("Explain02").innerHTML = "You are Correct! <br> B. Address a place where a person or organization may be communicated with.";
     
     document.getElementById("btn-changeGreen2").className = "btn btn-success";
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
