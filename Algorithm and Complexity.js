@@ -1,9 +1,9 @@
 function Hint1() {
-    document.getElementById("Explain01").innerHTML = "Dragon Baller yun men";
+    document.getElementById("Explain01").innerHTML = "Example Hint";
 }
 
 function ExplainWrong1() {
-    document.getElementById("Explain01").innerHTML = "A. Si JahredMario yon engot";
+    document.getElementById("Explain01").innerHTML = "Wrong Answer showing";
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
     document.getElementById("btn-changeRed01").className = "btn btn-danger";
     document.getElementById("btn-changeRed001").className = "btn btn-danger";
@@ -17,7 +17,7 @@ function ExplainWrong1() {
 }
 
 function ExplainCorrect1() {
-    document.getElementById("Explain01").innerHTML = "Nice! Si Jahred si Kakarot!";
+    document.getElementById("Explain01").innerHTML = "Sample Correct Answer";
     
     document.getElementById("btn-changeGreen1").className = "btn btn-success";
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
@@ -34,11 +34,11 @@ function ExplainCorrect1() {
 
 
 function Hint2() {
-    document.getElementById("Explain02").innerHTML = "Close ni Baccay yun";
+    document.getElementById("Explain02").innerHTML = "Hint 2";
 }
 
 function ExplainWrong2() {
-    document.getElementById("Explain02").innerHTML = "D. Si Usog pa rin nukaba";
+    document.getElementById("Explain02").innerHTML = "Wrong Ans 2";
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
     document.getElementById("btn-changeRed02").className = "btn btn-danger";
     document.getElementById("btn-changeRed002").className = "btn btn-danger";
@@ -52,7 +52,7 @@ function ExplainWrong2() {
 }
 
 function ExplainCorrect2() {
-    document.getElementById("Explain02").innerHTML = "Nice! Si Usog nga!";
+    document.getElementById("Explain02").innerHTML = "Correct Ans 2";
     
     document.getElementById("btn-changeGreen2").className = "btn btn-success";
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
