@@ -44,24 +44,27 @@
 <div class="container">
     <div class="jumbotron">
         <h2>1. Example Question</h2>
-        <button class="btn btn-warning" id="Hint01" onclick="Hint1()">Hint</button>
-
-        <h4 id="Explain01" class="Hint"></h4>
-
+        
         <form>
-            <input type="radio" onclick="ExplainCorrect1()" value="Choice A">
+            <input type="radio" onclick="ExplainCorrect1()" id="btn-changeGreen1">
             <label for="">Choice A</label><br>
 
-            <input type="radio" onclick="ExplainWrong1()" value="Choice B">
+            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed1">
             <label for="">Choice B</label><br>
 
-            <input type="radio" onclick="ExplainWrong1()" value="Choice C">
+            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed01">
             <label for="">Choice C</label><br>
 
-            <input type="radio" onclick="ExplainWrong1()" value="Choice D">
+            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed001">
             <label for="">Choice D</label>
-
         </form>
+
+        <br>
+
+        <input type="checkbox" onclick="Hint1()" id="Explain01">
+        <label for="">Hint</label>
+        <button class="btn btn-warning" id="Hint01" onclick="Hint1()">Hint</button>
+        <h4 id="Explain01" class="Hint"></h4>
     </div>
 </div>
 
