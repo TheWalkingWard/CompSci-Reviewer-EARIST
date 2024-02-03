@@ -234,36 +234,68 @@ function ExplainCorrect7() {
     document.getElementById("Hint07").disabled = true;
 }
 
-function Hint7() {
-    document.getElementById("Explain07").innerHTML = "element of data structure at least once";
+function Hint8() {
+    document.getElementById("Explain08").innerHTML = "element of data structure at least once";
 }
 
-function ExplainWrong7() {
-    // document.getElementById("Explain07").innerHTML = "Wrong Ans 7";
-    document.getElementById("btn-changeRed7").className = "btn btn-danger";
-    document.getElementById("btn-changeRed07").className = "btn btn-danger";
-    document.getElementById("btn-changeRed007").className = "btn btn-danger";
-    document.getElementById("btn-changeGreen7").className = "btn btn-success";
+function ExplainWrong8() {
+    // document.getElementById("Explain08").innerHTML = "Wrong Ans 8";
+    document.getElementById("btn-changeRed8").className = "btn btn-danger";
+    document.getElementById("btn-changeRed08").className = "btn btn-danger";
+    document.getElementById("btn-changeRed008").className = "btn btn-danger";
+    document.getElementById("btn-changeGreen8").className = "btn btn-success";
 
-    document.getElementById("btn-changeRed7").disabled = true;
-    document.getElementById("btn-changeRed07").disabled = true;
-    document.getElementById("btn-changeRed007").disabled = true;
-    document.getElementById("btn-changeGreen7").disabled = true;
-    document.getElementById("Hint07").disabled = true;
+    document.getElementById("btn-changeRed8").disabled = true;
+    document.getElementById("btn-changeRed08").disabled = true;
+    document.getElementById("btn-changeRed008").disabled = true;
+    document.getElementById("btn-changeGreen8").disabled = true;
+    document.getElementById("Hint08").disabled = true;
 }
 
-function ExplainCorrect7() {
-    // document.getElementById("Explain07").innerHTML = "Correct Ans 7";
+function ExplainCorrect8() {
+    // document.getElementById("Explain08").innerHTML = "Correct Ans 8";
     
-    document.getElementById("btn-changeGreen7").className = "btn btn-success";
-    document.getElementById("btn-changeRed7").className = "btn btn-danger";
-    document.getElementById("btn-changeRed07").className = "btn btn-danger";
-    document.getElementById("btn-changeRed007").className = "btn btn-danger";
+    document.getElementById("btn-changeGreen8").className = "btn btn-success";
+    document.getElementById("btn-changeRed8").className = "btn btn-danger";
+    document.getElementById("btn-changeRed08").className = "btn btn-danger";
+    document.getElementById("btn-changeRed008").className = "btn btn-danger";
 
-    document.getElementById("btn-changeRed7").disabled = true;
-    document.getElementById("btn-changeRed07").disabled = true;
-    document.getElementById("btn-changeRed007").disabled = true;
-    document.getElementById("btn-changeGreen7").disabled = true;
-    document.getElementById("Hint07").disabled = true;
+    document.getElementById("btn-changeRed8").disabled = true;
+    document.getElementById("btn-changeRed08").disabled = true;
+    document.getElementById("btn-changeRed008").disabled = true;
+    document.getElementById("btn-changeGreen8").disabled = true;
+    document.getElementById("Hint08").disabled = true;
 }
 
+function Hint8() {
+    document.getElementById("Explain08").innerHTML = "element of data structure at least once";
+}
+
+function ExplainWrong8() {
+    // document.getElementById("Explain08").innerHTML = "Wrong Ans 8";
+    document.getElementById("btn-changeRed8").className = "btn btn-danger";
+    document.getElementById("btn-changeRed08").className = "btn btn-danger";
+    document.getElementById("btn-changeRed008").className = "btn btn-danger";
+    document.getElementById("btn-changeGreen8").className = "btn btn-success";
+
+    document.getElementById("btn-changeRed8").disabled = true;
+    document.getElementById("btn-changeRed08").disabled = true;
+    document.getElementById("btn-changeRed008").disabled = true;
+    document.getElementById("btn-changeGreen8").disabled = true;
+    document.getElementById("Hint08").disabled = true;
+}
+
+function ExplainCorrect9() {
+    // document.getElementById("Explain09").innerHTML = "Correct Ans 9";
+    
+    document.getElementById("btn-changeGreen9").className = "btn btn-success";
+    document.getElementById("btn-changeRed9").className = "btn btn-danger";
+    document.getElementById("btn-changeRed09").className = "btn btn-danger";
+    document.getElementById("btn-changeRed009").className = "btn btn-danger";
+
+    document.getElementById("btn-changeRed9").disabled = true;
+    document.getElementById("btn-changeRed09").disabled = true;
+    document.getElementById("btn-changeRed009").disabled = true;
+    document.getElementById("btn-changeGreen9").disabled = true;
+    document.getElementById("Hint09").disabled = true;
+}
