@@ -153,8 +153,8 @@ function ExplainWrong5() {
     document.getElementById("Hint05").disabled = true;
 }
 
-function ExplainCorrect4() {
-    // document.getElementById("Explain04").innerHTML = "Correct Ans 4";
+function ExplainCorrect5() {
+    // document.getElementById("Explain05").innerHTML = "Correct Ans 5";
     
     document.getElementById("btn-changeGreen5").className = "btn btn-success";
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
@@ -166,4 +166,37 @@ function ExplainCorrect4() {
     document.getElementById("btn-changeRed005").disabled = true;
     document.getElementById("btn-changeGreen5").disabled = true;
     document.getElementById("Hint05").disabled = true;
+}
+
+function Hint6() {
+    document.getElementById("Explain06").innerHTML = "collection of data elements whose order";
+}
+
+function ExplainWrong6() {
+    // document.getElementById("Explain06").innerHTML = "Wrong Ans 6";
+    document.getElementById("btn-changeRed6").className = "btn btn-danger";
+    document.getElementById("btn-changeRed06").className = "btn btn-danger";
+    document.getElementById("btn-changeRed006").className = "btn btn-danger";
+    document.getElementById("btn-changeGreen6").className = "btn btn-success";
+
+    document.getElementById("btn-changeRed6").disabled = true;
+    document.getElementById("btn-changeRed06").disabled = true;
+    document.getElementById("btn-changeRed006").disabled = true;
+    document.getElementById("btn-changeGreen6").disabled = true;
+    document.getElementById("Hint06").disabled = true;
+}
+
+function ExplainCorrect6() {
+    // document.getElementById("Explain06").innerHTML = "Correct Ans 6";
+    
+    document.getElementById("btn-changeGreen6").className = "btn btn-success";
+    document.getElementById("btn-changeRed6").className = "btn btn-danger";
+    document.getElementById("btn-changeRed06").className = "btn btn-danger";
+    document.getElementById("btn-changeRed006").className = "btn btn-danger";
+
+    document.getElementById("btn-changeRed6").disabled = true;
+    document.getElementById("btn-changeRed06").disabled = true;
+    document.getElementById("btn-changeRed006").disabled = true;
+    document.getElementById("btn-changeGreen6").disabled = true;
+    document.getElementById("Hint06").disabled = true;
 }
