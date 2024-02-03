@@ -101,3 +101,36 @@ function ExplainCorrect3() {
     document.getElementById("btn-changeGreen3").disabled = true;
     document.getElementById("Hint02").disabled = true;
 }
+
+function Hint4() {
+    document.getElementById("Explain04").innerHTML = "collection of data elements whose order";
+}
+
+function ExplainWrong4() {
+    // document.getElementById("Explain04").innerHTML = "Wrong Ans 4";
+    document.getElementById("btn-changeRed4").className = "btn btn-danger";
+    document.getElementById("btn-changeRed04").className = "btn btn-danger";
+    document.getElementById("btn-changeRed004").className = "btn btn-danger";
+    document.getElementById("btn-changeGreen4").className = "btn btn-success";
+
+    document.getElementById("btn-changeRed4").disabled = true;
+    document.getElementById("btn-changeRed04").disabled = true;
+    document.getElementById("btn-changeRed004").disabled = true;
+    document.getElementById("btn-changeGreen4").disabled = true;
+    document.getElementById("Hint04").disabled = true;
+}
+
+function ExplainCorrect4() {
+    // document.getElementById("Explain04").innerHTML = "Correct Ans 4";
+    
+    document.getElementById("btn-changeGreen4").className = "btn btn-success";
+    document.getElementById("btn-changeRed4").className = "btn btn-danger";
+    document.getElementById("btn-changeRed04").className = "btn btn-danger";
+    document.getElementById("btn-changeRed004").className = "btn btn-danger";
+
+    document.getElementById("btn-changeRed4").disabled = true;
+    document.getElementById("btn-changeRed04").disabled = true;
+    document.getElementById("btn-changeRed004").disabled = true;
+    document.getElementById("btn-changeGreen4").disabled = true;
+    document.getElementById("Hint04").disabled = true;
+}
