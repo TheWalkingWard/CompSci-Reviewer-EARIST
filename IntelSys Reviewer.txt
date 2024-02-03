@@ -1,0 +1,119 @@
+inteligence system
+
+1. Application of machine learning methods to large databases is called?
+
+A. Data mining.
+B. Artificial intelligence
+C. Big data computing
+D. Internet of things
+
+Answer:
+A. Data mining the process of volumes of data to discover business intelligence that can help companies solve problems, mitigate risks, and seize new opportunities.
+
+HINT: volumes of data to discover business intelligence
+
+2. If machine learning model output involves target variable then that model is called as
+
+A. Descriptive model
+B. Predictive model
+C. Reinforcement learning
+D. All of the above
+
+Answer 
+B. Predictive model a commonly used statistical technique to predict future behavior. Predictive modeling solutions are a form of data-mining technology.
+
+HINT: commonly used statistical technique to predict future
+
+3. In what type of learning labelled training data is used
+
+A. Unsupervised learning
+B. Supervised learning
+C. Reinforcement learning
+D. Active learning
+
+Answer
+B. Supervised learning a subcategory of machine learning and artificial intelligence. It is defined by its use of labeled datasets to train algorithms that to classify data or predict outcomes accurately.
+
+HINT: defined by its use of labeled datasets to train algorithms
+	
+4. What does dimensionality reduction reduce?
+
+A. Stochastics
+B. Collinerity
+C. Performance
+D. Entropy
+
+Answer
+B. Collinerity a special case when two or more variables are exactly correlated. This means the regression coefficients are not uniquely determined.
+
+HINT: special case when two or more variables are exactly correlated
+
+5. Data used to build a data mining model.
+A. Training data
+B. Validation data
+C. Test data
+D. Hidden data
+
+Answer 
+A. Training data the data you use to train a machine learning algorithm or model to accurately predict a particular outcome, or answer, that you want your model to predict.
+
+HINT:  machine learning algorithm or model to accurately predict a particular outcome
+
+6. Like the probabilistic view, the ________ view allows us to associate a probability of membership with each classification.
+A. Exampler
+B. Deductive
+C. Classical
+D. Inductive
+
+Answer 
+D. Inductive a type of machine learning that aims to identify patterns in data and generalize them to new situations.
+
+HINT: aims to identify patterns in data and generalize
+
+7. Database query is used to uncover this type of knowledge.
+A. Deep
+B. Hidden
+C. Shallow
+D. Multidimensional
+
+Answer
+
+D. Multidimensional a data set with many different columns, also called features or attributes. The more columns in the data set, the more likely you are to discover hidden insights.
+
+HINT: also called features or attributes.
+
+8. Some telecommunication company wants to segment their customers into distinct groups ,this is an example of
+
+A. Supervised learning
+B. Reinforcement learning
+C. Unsupervised learning
+D. Data extraction
+
+Answer 
+C. Unsupervised learning  a type of machine learning that type of machine learning that learns from data .
+
+HINT: type of machine learning that learns from data 
+
+9. If machine learning model output doesnot involves target variable then that model is called as
+
+A. Descriptive model
+B. Predictive model
+C. Reinforcement learning
+D. All of the above
+
+Answer 
+A. Descriptive model perspective to understand the data and its different existing patterns. Basically, it is part of four types of Data Analysis concepts.
+
+HINT: understand the data and its different existing patterns
+
+10. Support Vector Machine is
+
+A. Logical model
+B. Proababilistic model
+C. Geometric model
+D. None of the above
+
+Answer 
+C. Geometric model algorithms that use geometric concepts to solve various problems, such as classification, regression, and clustering.
+
+HINT: geometric concepts to solve various problems

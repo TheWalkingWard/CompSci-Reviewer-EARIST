@@ -1,0 +1,89 @@
+APP DEVELOPMENT
+1. To which of the following categories the mobile apps belong?
+
+A. Hardware
+B. System software
+C. Application software
+D. Internet devices 
+ANSWER 
+C. Application Software are a group of programs that run on electronic devices. These programs are designed for the user to carry out different tasks.
+
+2. Which of the following is not an app?
+
+A. Contact
+B. Address
+C. Music
+D. Compass
+ANSWER
+B. Address a place where a person or organization may be communicated with.
+
+3. Which of the following programming languages is not used in developing mobile apps?
+
+A. Java
+B. C++
+C. Python
+D. HTML
+ANSWER
+C. Python is often used as a support language for software developers, for build control and management, testing, and in many other ways.
+
+4. The websites are designed using CSS. What does CSS mean?
+
+A. Cading Style Sheets
+B. Cascading Style Sheets
+C. Cash coding Style Sheets
+D. Casing Style Sheets
+ANSWER
+B. Cascading Style Sheets it's a stylesheet language used to add layout and visual effects to HTML elements. CSS is used specifically for markup languages, in this case HTML.
+
+5.Which of the following mobile app is developed by Zuckerberg?
+
+A. YouTube
+B. Skype
+C. Twitter
+D. Facebook
+ANSWER
+D. Facebook is developed by Mark Elliot Zuckerberg.
+
+6.Which of the following is needed to develop a simple app?
+
+A. App development software
+B. Internet
+C. E-mail
+D. All of them
+ANSWER
+A. App development software the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.
+
+7.In a mobile handset, an app is executed by?
+
+A. Tapping
+B. Scanning
+C. Pointing
+D. None of the above
+ANSWER
+A. Tapping in a mobile handset, an app is executed by tapping.
+
+8. Which of the following apps can be used offline?
+
+A. WhatsApp
+B. Facebook
+C. Twitter
+D. Calculator
+ANSWER
+D. Calculator is a native app and hence, it can be used offline.
+
+9.The full form of app is?
+A. Application
+B. Hardware
+C. Google Playstore
+D. Appypie
+ANSWER
+A. Application the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.
+
+10. Apps can be installed on the phone with the help of?
+
+A. Google Play
+B. Googplay Store
+C. Music Store
+D. None of the above
+ANSWER
+B. Googplay Store is the official online store for digital media distributed by Google.

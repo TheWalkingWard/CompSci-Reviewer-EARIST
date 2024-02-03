@@ -1,0 +1,121 @@
+Algo and Complexity
+
+1. A(n) _____ is an example of a contiguous structure.
+
+A. Array
+B. Data
+C. Pointer
+D. Linked list
+
+Answer
+A. Array linear data structure that collects elements of the same data type and stores them in ontiguous and adjacent memory locations
+
+HINT: contiguous and adjacent memory locations
+
+2. A variable that holds the memory address of another object is called an
+
+A. Memory variable
+B. Constant
+C. Pointer
+D. Integer
+
+Answer
+C. Pointer can be used to represent the current element in a sequence (such as array or string).
+
+HINT: current element in a sequence
+
+3. Which of the following data structure is non linear type?
+
+A. Stacks
+B. Tree
+C. Strings
+D. Lists
+
+Answer
+B. Tree a hierarchical data structure defined as a collection of nodes. Nodes represent value and nodes are connected by edges.
+
+HINT: defined as a collection of nodes
+
+4. A(n) ______ is an example of a non contiguous data structure.
+
+A. Array
+B. Data
+C. Pointer
+D. Linked list
+
+Answer
+D. Linked list a linear collection of data elements whose order is not given by their physical placement in memory.
+
+HINT: collection of data elements whose order
+
+5. Which of the following data structure is linear type?
+
+A. Stack
+B. Binary tree
+C. Trees
+D. Graph
+
+Answer
+A. Stack an abstract data type that serves as a collection of elements with two main operations: Push, which adds an element to the collection, and. Pop, which removes the most recently added element.
+
+HINT: serves as a collection of elements with two main operations
+
+6. In Binary trees nodes with no successor are called
+
+A. Final nodes
+B. Last nodes
+C. End nodes
+D. Terminal nodes
+
+Answer
+A. Terminal nodes Leaf node, a node of a tree data structure that has no child nodes. Lymph node, a terminal lymph node in the lymphatic system. 
+
+HINT: node of a tree data structure that has no child nodes
+
+7. The operation of processing each element in the list is known as
+
+A. Traversal
+B. Inserting
+C. Merging
+D. Sorting
+
+Answer
+A. Traversal accessing each element of data structure at least once. Linked List traversal means accessing all the elements of the list starting from the head node to the last node. 
+
+HINT: element of data structure at least once
+
+8. Which data structure is used in breadth first search of a graph to hold nodes?
+
+A. Array
+B. Tree
+C. Queue
+D. Stack
+
+Answer
+C. Queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. Since queues maintain the order of insertion of elements and also remove elements in the same order as of insertion.
+
+HINT: linear data structure that follows the First-In-First-Out (FIFO) principle
+
+9. A binary tree whose every node has either zero or two children is called
+
+A. Data structure
+B. Extended binary tree
+C. Binary search tree
+D. Complete binary tree
+
+Answer
+B. Extended binary tree a type of binary tree in which all the null sub tree of the original tree are replaced with special nodes called external nodes whereas other nodes are called internal nodes.
+
+HINT: sub tree of the original tree are replaced with special nodes
+
+10. A search technique where we keep expanding nodes with least accumulated cost so far is called
+
+A. Breadth first
+B. Branch and bound
+C. Best first
+D. Hill climbing
+
+Answer 
+B. Branch and bound method divides the feasible region into partitions in a tree structure and uses the solutions to subproblems to bound the objective function and “prune” branches of the solution tree.
+
+HINT: method divides the feasible region into partitions in a tree structure

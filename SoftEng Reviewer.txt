@@ -1,0 +1,90 @@
+SOFTWARE ENGINEERING 3RD TOPIC
+
+1. Software is defined as ___________.
+
+A. set of programs, documentation & configuration of data
+B. set of programs
+C. documentation and configuration of data
+D. None of the mentioned
+ANSWER 
+A. Software is a collection of programmes; it also includes documentation and data setup to enable the programmes to function. Microsoft windows, excel, word, powerpoint, etc. are a few examples of software.
+
+2. What is Software Engineering?
+
+A. Designing a software
+B. Testing a software
+C. Application of engineering principles to the design a software
+D. None of the above
+ANSWER 
+C. Software engineering is the application of engineering principles to the design, development, and support of software and it helps to solve the challenges of low-quality software projects.
+
+3. Who is the father of Software Engineering?
+
+A. Margaret Hamilton
+B. Watts S. Humphrey
+C. Alan Turing
+D. Boris Beizer
+ANSWER
+B. Watts S. Humphrey created the Software Process Program at Carnegie Mellon University’s Institute (SEI) in the 1980s, and served as its director from 1986 through the early 1990s. This program was designed to help participants understand and manage the software developement process.
+
+4. What are the features of Software Code?
+
+A. Simplicity
+B. Accessibility
+C. Modularity
+D. All of the above
+ANSWER
+C. Modularity refers to the practice of breaking down a software system into smaller, independent, and interchangeable modules or components. Each module is designed to perform a specific function and can be developed, tested, and maintained separately. Modularity contributes to various aspects of software development
+
+5. ____________ is a software development activity that is not a part of software processes.
+A. Validation
+B. Specification
+C. Development
+D. Dependence
+ANSWER
+D. A software dependency is an external independent library that can range in size from a single file to numerous files and directories arranged into packages to accomplish a specified purpose and is an attribute and not an engineering activity for process.
+
+6. Define Agile scrum methodology.
+
+A. project management that emphasizes incremental progress
+B. project management that emphasizes decremental progress
+C. project management that emphasizes neutral progress
+D. project management that emphasizes no progress
+ANSWER
+A. Agile scrum methodology is a style of project management that emphasizes incremental progress. Each iteration is divided into two to four-week sprints, with the goal of completing the most important features first and delivering a possibly deliverable product at the end of each sprint.
+
+7. CASE stands for
+
+A. Computer-Aided Software Engineering
+B. Control Aided Science and Engineering
+C. Cost Aided System Experiments
+D. None of the mentioned
+ANSWER
+A. Computer-Aided Software Engineering describes a broad set of labor-saving tools used in software development. They create a framework for managing projects and are intended to help users stay organized and improve productivity.
+
+8. ________ is defined as the process of generating analysis and designing documents?
+
+A. Re-engineering
+B. Reverse engineering
+C. Software re-engineering
+D. Science and engineering
+ANSWER 
+B. Reverse engineering is used to uncover difficult, unknown, and hidden information about a software system.
+
+9. What does SDLC stands for?
+
+A. System Design Life Cycle
+B. Software Design Life Cycle
+C. Software Development Life Cycle
+D. System Development Life cycle
+ANSWER
+C. Software Development Life Cycle (SDLC) is a method for designing, developing, and testing high-quality software. The software developed to meet or exceed customer expectations must have an SDLC designed to complete the software on time and on budget.
+
+10. Who proposed the spiral model?
+
+A. Barry Boehm
+B. Pressman
+C. Royce
+D. IBM
+ANSWER
+A. Spiral model by Boehm, is a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements. It implements the capability of quick production of new software versions.

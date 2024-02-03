@@ -1,0 +1,115 @@
+ARCHIORG QUESTIONS
+
+1.The largest and most important circuit board in the computer is the ____________________, also called the main board or system board.
+
+A. ROM
+B. Motherboard
+C. Processor/CPU
+D. PCI
+
+ANSWER
+B. Motherboard The main board in the computer, also called the system board. The CPU, ROM chips, SIMMs, DIMMs, RIMMs, and interface cards are plugged into the motherboard.
+
+2. In the world of computers, the term ____________________ refers to the computer’s physical components, such as the monitor, keyboard, memory chips, and hard drive.
+
+A. Software
+B. Hardware
+C. Vaporware
+D. Bioware
+
+ANSWER
+B. Hardware The physical components that constitute the computer system, such as the monitor, the keyboard, the motherboard, and the printer.
+
+3. The ____________________ is a group of microchips on the motherboard that control the flow of data and instructions to and from the processor, providing careful timing of activities.
+
+A. Mainframe
+B. Tollhaus
+C. Dual-core processor
+D. Chipset
+
+ANSWER
+D. Chipset A group of chips on the motherboard that controls the timing and flow of data and instructions to and from the CPU.
+
+4. This system of pathways used for communication and the protocol and methods used for transmission are collectively called the ____________________
+
+A. Transmission Relay
+B. Bus
+C. USB
+D. Bit conduits
+
+ANSWER
+B. Bus The paths, or lines, on the motherboard on which data, instructions, and electrical power move from component to component.
+
+5. Different versions of UNIX are referred to as _____
+
+A. Distributions
+B. UAP
+C. Torvalds
+D. Applications
+
+ANSWER
+A. Distributions The term UNIX comprises a class of operating systems used to control networks and applications on the Internet. Versions of UNIX are referred to as flavors or distributions. LINUX is the most popular UNIX distribution.
+
+6. In which of the following gates, the output is 1, if and only if at least one input is 1?
+
+A. NOR
+B. AND
+C. OR
+D. NAND
+
+ANSWER 
+C. OR gate  we need atleast one bit to be equal to 1 to generate the output as 1 because OR means  any of the condition out of two is equal to 1  which means  if atleast one input is 1 then it shows output as 1 . Number of 1's in input may be more than one but the output will always be 1 in OR gate. So the answer is 'C'.
+
+7. The time required for a gate or inverter to change its state is called
+
+A. Rise time
+B. Decay time
+C. Propagation time
+D. Charging time
+
+ANSWER 
+C. Propagation time required for a signal or wave to travel from one point of a transmission medium to another.
+
+8. The time required for a pulse to change from 10 to 90 percent of its maximum value is called
+
+
+A. Rise time
+B. Decay time
+C. Propagation time
+D. Operating speed
+
+ANSWER 
+A. Rise time taken for a signal to cross a specified lower voltage threshold followed by a specified upper voltage threshold. 
+
+9. The maximum frequency at which digital data can be applied to gate is caled
+
+
+A. one
+B. two
+C. three
+D. four
+
+ANSWER 
+C. three Y=A+B. This is the equation of OR gate. We require 3 NAND gates to create  OR gate.  We can also write
+
+After 1st NAND operation
+Y = (A AND B)' 
+Y=  A'  + B'  (Demorgan's Law)
+After 2nd NAND operation
+Y= ( A'  + B')'
+Y=  A . B  (Demorgan's Law)
+After 3rd  NAND operation
+Y= ( A . B )'
+Y=  A' +  B '  (Demorgan's Law)
+
+So we need 3 NAND gates.
+
+10. The time required for a pulse to decrease from 90 to 10 per cent of its maximum value is called
+
+A. Rise time
+B. Decay time
+C. Binary level transition period
+D. Propagation delay
+
+ANSWER
+B. Decay time required for a collection of atoms of a particular radionuclide to decay to a fraction of the initial number equal to 1/e, where e = 2.7182818 …, used as the base of natural logarithms.
