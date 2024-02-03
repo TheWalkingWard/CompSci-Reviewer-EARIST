@@ -68,6 +68,31 @@
 
 <div class="container">
     <div class="jumbotron">
+        <h2>1. Example Question</h2>
+        
+        <form>
+            <input type="radio" onclick="ExplainCorrect1()" id="btn-changeGreen1">
+            <label for="">Choice A</label><br>
+
+            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed1">
+            <label for="">Choice B</label><br>
+
+            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed01">
+            <label for="">Choice C</label><br>
+
+            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed001">
+            <label for="">Choice D</label>
+        </form>
+
+        <br>
+
+        <h3 onclick="Hint1()">Hint: </h3>
+        <h4 id="Explain01" class="Hint"></h4>
+    </div>
+</div>
+
+<div class="container">
+    <div class="jumbotron">
         <h2>2. Example Question 2nd</h2>
         <button class="btn btn-info" id="btn-changeRed002" onclick="ExplainWrong2()">A. Sample Choice</button> <br><br>
         <button class="btn btn-info" id="btn-changeRed2" onclick="ExplainWrong2()">B. Sample Choice</button> <br><br>
