@@ -169,7 +169,7 @@ function ExplainCorrect5() {
 }
 
 function Hint6() {
-    document.getElementById("Explain06").innerHTML = "collection of data elements whose order";
+    document.getElementById("Explain06").innerHTML = "node of a tree data structure that has no child nodes";
 }
 
 function ExplainWrong6() {
@@ -199,4 +199,37 @@ function ExplainCorrect6() {
     document.getElementById("btn-changeRed006").disabled = true;
     document.getElementById("btn-changeGreen6").disabled = true;
     document.getElementById("Hint06").disabled = true;
+}
+
+function Hint7() {
+    document.getElementById("Explain07").innerHTML = "element of data structure at least once";
+}
+
+function ExplainWrong7() {
+    // document.getElementById("Explain07").innerHTML = "Wrong Ans 7";
+    document.getElementById("btn-changeRed7").className = "btn btn-danger";
+    document.getElementById("btn-changeRed07").className = "btn btn-danger";
+    document.getElementById("btn-changeRed007").className = "btn btn-danger";
+    document.getElementById("btn-changeGreen7").className = "btn btn-success";
+
+    document.getElementById("btn-changeRed7").disabled = true;
+    document.getElementById("btn-changeRed07").disabled = true;
+    document.getElementById("btn-changeRed007").disabled = true;
+    document.getElementById("btn-changeGreen7").disabled = true;
+    document.getElementById("Hint07").disabled = true;
+}
+
+function ExplainCorrect7() {
+    // document.getElementById("Explain07").innerHTML = "Correct Ans 7";
+    
+    document.getElementById("btn-changeGreen7").className = "btn btn-success";
+    document.getElementById("btn-changeRed7").className = "btn btn-danger";
+    document.getElementById("btn-changeRed07").className = "btn btn-danger";
+    document.getElementById("btn-changeRed007").className = "btn btn-danger";
+
+    document.getElementById("btn-changeRed7").disabled = true;
+    document.getElementById("btn-changeRed07").disabled = true;
+    document.getElementById("btn-changeRed007").disabled = true;
+    document.getElementById("btn-changeGreen7").disabled = true;
+    document.getElementById("Hint07").disabled = true;
 }
