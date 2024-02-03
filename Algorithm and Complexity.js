@@ -111,7 +111,7 @@ function ExplainWrong4() {
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
     document.getElementById("btn-changeRed04").className = "btn btn-danger";
     document.getElementById("btn-changeRed004").className = "btn btn-danger";
-    document.getElementById("btn-changeGreen4").className = "btn btn-success";
+    document.getElementById("btn-changeGreen5").className = "btn btn-success";
 
     document.getElementById("btn-changeRed4").disabled = true;
     document.getElementById("btn-changeRed04").disabled = true;
@@ -133,4 +133,37 @@ function ExplainCorrect4() {
     document.getElementById("btn-changeRed004").disabled = true;
     document.getElementById("btn-changeGreen4").disabled = true;
     document.getElementById("Hint04").disabled = true;
+}
+
+function Hint5() {
+    document.getElementById("Explain05").innerHTML = "collection of data elements whose order";
+}
+
+function ExplainWrong5() {
+    // document.getElementById("Explain05").innerHTML = "Wrong Ans 5";
+    document.getElementById("btn-changeRed5").className = "btn btn-danger";
+    document.getElementById("btn-changeRed05").className = "btn btn-danger";
+    document.getElementById("btn-changeRed005").className = "btn btn-danger";
+    document.getElementById("btn-changeGreen5").className = "btn btn-success";
+
+    document.getElementById("btn-changeRed5").disabled = true;
+    document.getElementById("btn-changeRed05").disabled = true;
+    document.getElementById("btn-changeRed005").disabled = true;
+    document.getElementById("btn-changeGreen5").disabled = true;
+    document.getElementById("Hint05").disabled = true;
+}
+
+function ExplainCorrect4() {
+    // document.getElementById("Explain04").innerHTML = "Correct Ans 4";
+    
+    document.getElementById("btn-changeGreen5").className = "btn btn-success";
+    document.getElementById("btn-changeRed5").className = "btn btn-danger";
+    document.getElementById("btn-changeRed05").className = "btn btn-danger";
+    document.getElementById("btn-changeRed005").className = "btn btn-danger";
+
+    document.getElementById("btn-changeRed5").disabled = true;
+    document.getElementById("btn-changeRed05").disabled = true;
+    document.getElementById("btn-changeRed005").disabled = true;
+    document.getElementById("btn-changeGreen5").disabled = true;
+    document.getElementById("Hint05").disabled = true;
 }
