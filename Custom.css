@@ -89,3 +89,52 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+.AlgoCompBG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.AppDevBG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ArchiOrgBG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.HCIBG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.IntelSysBG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.OSBG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.SoftEngBG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
