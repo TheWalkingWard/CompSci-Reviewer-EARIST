@@ -78,3 +78,14 @@
     background-size: 100% 100%;
     color: white;
 }
+
+.GroupMembers {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contentBG {
+    background-image: url("QnAsBG.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

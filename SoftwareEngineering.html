@@ -12,20 +12,21 @@
     <link rel="stylesheet" href="Custom.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body class="BGStuff">
-    
-<div class="container">
-    <div class="jumbotron jumbotron1 text-center BGStuff1">
-        <img src="TitleLogo.png" alt="Logo" class="biggerPic" />
+<body>
+
+<div class="jumbotron">
+    <div class="container text-center">
+        <h1>Comp-Sci Reviewer</h1>
+        <h2>Your Guide for Computer Science</h2>
 
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-2"></div>
             <div class="col-sm-2">
-                <a href="index.html" class="container text-center"><button class="btn btn-info btn-info1">Back to Menu</button></a>
+                <a href="index.html" class="btn btn-info">Back to Menu</a>
             </div>
             <div class="col-sm-2">
-                <a href="SubChoices.html" class="container text-center"><button class="btn btn-info btn-info1">Back to Subjects</button></a>
+                <a href="SubChoices.html" class="btn btn-success">Back to List of Subjects</a>
             </div>
             <div class="col-sm-2"></div>
             <div class="col-sm-2"></div>
@@ -42,251 +43,15 @@
 
 <div class="container">
     <div class="jumbotron">
-        <h2>1. Software is defined as ___________.</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainCorrect1()" id="btn-changeGreen1">
-            <label id="ChoiceGreen1" for="">A. set of programs, documentation & configuration of data</label><br>
+        <h2></h2>
+        <button class="btn btn-info" id="btn-changeRed01" onclick=""></button> <br><br>
+        <button class="btn btn-info" id="btn-changeRed1" onclick=""></button> <br><br>
+        <button class="btn btn-info" id="btn-changeGreen1" onclick=""></button> <br><br>
+        <button class="btn btn-info" id="btn-changeRed001" onclick=""></button> <br><br><br>
 
-            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed1">
-            <label id="ChoiceRed1" for="">B. set of programs</label><br>
+        <button class="btn btn-warning" id="Hint01" onclick="Hint1()">Hint</button>
 
-            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed01">
-            <label id="ChoiceRed01" for="">C. documentation and configuration of data</label><br>
-
-            <input type="radio" onclick="ExplainWrong1()" id="btn-changeRed001">
-            <label id="ChoiceRed001" for="">D. None of the mentioned</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint1()">Hint: </h3>
         <h4 id="Explain01" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>2. What is Software Engineering?</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainCorrect2()" id="btn-changeGreen2">
-            <label id="ChoiceGreen2" for="">A. Designing a software</label><br>
-
-            <input type="radio" onclick="ExplainWrong2()" id="btn-changeRed2">
-            <label id="ChoiceRed2" for="">B. Testing a software</label><br>
-
-            <input type="radio" onclick="ExplainWrong2()" id="btn-changeRed02">
-            <label id="ChoiceRed02" for="">C. Application of engineering principles to the design a software</label><br>
-
-            <input type="radio" onclick="ExplainWrong2()" id="btn-changeRed002">
-            <label id="ChoiceRed002" for="">D. None of the above</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint2()">Hint: </h3>
-        <h4 id="Explain02" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>3. Who is the father of Software Engineering?</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainWrong3()" id="btn-changeGreen3">
-            <label id="ChoiceRed3" for="">A. Margaret Hamilton</label><br>
-
-            <input type="radio" onclick="ExplainCorrect3()" id="btn-changeRed3">
-            <label id="ChoiceGreen3" for="">B. Watts S. Humphrey</label><br>
-
-            <input type="radio" onclick="ExplainWrong3()" id="btn-changeRed03">
-            <label id="ChoiceRed03" for="">C. Alan Turing</label><br>
-
-            <input type="radio" onclick="ExplainWrong3()" id="btn-changeRed003">
-            <label id="ChoiceRed003" for="">D. Boris Beizer</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint3()">Hint: </h3>
-        <h4 id="Explain03" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>4. What are the features of Software Code?</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainWrong4()" id="btn-changeGreen4">
-            <label id="ChoiceRed4" for="">A. Simplicity</label><br>
-
-            <input type="radio" onclick="ExplainWrong4()" id="btn-changeRed4">
-            <label id="ChoiceRed04" for="">B. Accessibility</label><br>
-
-            <input type="radio" onclick="ExplainCorrect4()" id="btn-changeRed04">
-            <label id="ChoiceGreen4" for="">C. Modularity</label><br>
-
-            <input type="radio" onclick="ExplainWrong4()" id="btn-changeRed004">
-            <label id="ChoiceRed004" for="">D. All of the above</label>
-        </form>
-
-        <br>
-
-        <h4 onclick="Hint4()">Hint: </h4>
-        <h4 id="Explain04" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>5. ____________ is a software development activity that is not a part of software processes.</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainWrong5()" id="btn-changeGreen5">
-            <label id="ChoiceRed5" for="">A. Validation</label><br>
-
-            <input type="radio" onclick="ExplainWrong5()" id="btn-changeRed5">
-            <label id="ChoiceRed05" for="">B. Specification</label><br>
-
-            <input type="radio" onclick="ExplainWrong5()" id="btn-changeRed05">
-            <label id="ChoiceRed005" for="">C. Development</label><br>
-
-            <input type="radio" onclick="ExplainCorrect5()" id="btn-changeRed005">
-            <label id="ChoiceGreen5" for="">D. Dependence</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint5()">Hint: </h3>
-        <h4 id="Explain05" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>6. Define Agile scrum methodology.</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainCorrect6()" id="btn-changeGreen6">
-            <label id="ChoiceGreen6" for="">A. project management that emphasizes incremental progress</label><br>
-
-            <input type="radio" onclick="ExplainWrong6()" id="btn-changeRed6">
-            <label id="ChoiceRed6" for="">B. project management that emphasizes decremental progress</label><br>
-
-            <input type="radio" onclick="ExplainWrong6()" id="btn-changeRed06">
-            <label id="ChoiceRed06" for="">C. project management that emphasizes neutral progress</label><br>
-
-            <input type="radio" onclick="ExplainWrong6()" id="btn-changeRed006">
-            <label id="ChoiceRed006" for="">D. project management that emphasizes no progress</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint6()">Hint: </h3>
-        <h4 id="Explain06" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>7. CASE stands for</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainCorrect7()" id="btn-changeGreen7">
-            <label id="ChoiceGreen7" for="">A. Computer-Aided Software Engineering</label><br>
-
-            <input type="radio" onclick="ExplainWrong7()" id="btn-changeRed7">
-            <label id="ChoiceRed7" for="">B. Control Aided Science and Engineering</label><br>
-
-            <input type="radio" onclick="ExplainWrong7()" id="btn-changeRed07">
-            <label id="ChoiceRed07" for="">C. Cost Aided System Experiments</label><br>
-
-            <input type="radio" onclick="ExplainWrong7()" id="btn-changeRed007">
-            <label id="ChoiceRed007" for="">D. None of the mentioned</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint7()">Hint: </h3>
-        <h4 id="Explain07" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>8. ________ is defined as the process of generating analysis and designing documents?</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainWrong8()" id="btn-changeGreen8">
-            <label id="ChoiceRed8" for="">A. Re-engineering</label><br>
-
-            <input type="radio" onclick="ExplainCorrect8()" id="btn-changeRed8">
-            <label id="ChoiceGreen8" for="">B. Reverse engineering</label><br>
-
-            <input type="radio" onclick="ExplainWrong8()" id="btn-changeRed08">
-            <label id="ChoiceRed08" for="">C. Software re-engineering</label><br>
-
-            <input type="radio" onclick="ExplainWrong8()" id="btn-changeRed008">
-            <label id="ChoiceRed008" for="">D. Science and engineering</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint8()">Hint: </h3>
-        <h4 id="Explain08" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>9. What does SDLC stands for?</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainWrong9()" id="btn-changeGreen9">
-            <label id="ChoiceRed9" for="">A. System Design Life Cycle</label><br>
-
-            <input type="radio" onclick="ExplainWrong9()" id="btn-changeRed9">
-            <label id="ChoiceRed09" for="">B. Software Design Life Cycle</label><br>
-
-            <input type="radio" onclick="ExplainCorrect9()" id="btn-changeRed09">
-            <label id="ChoiceGreen9" for="">C. Software Development Life Cycle</label><br>
-
-            <input type="radio" onclick="ExplainWrong9()" id="btn-changeRed009">
-            <label id="ChoiceRed009" for="">D. System Development Life cycle</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint9()">Hint: </h3>
-        <h4 id="Explain09" class="Hint"></h4>
-    </div>
-</div>
-
-<div class="container">
-    <div class="jumbotron">
-        <h2>10. Who proposed the spiral model?</h2>
-        
-        <form>
-            <input type="radio" onclick="ExplainCorrect10()" id="btn-changeGreen10">
-            <label id="ChoiceGreen10" for="">A. Barry Boehm</label><br>
-
-            <input type="radio" onclick="ExplainWrong10()" id="btn-changeRed10">
-            <label id="ChoiceRed10" for="">B. Pressman</label><br>
-
-            <input type="radio" onclick="ExplainWrong10()" id="btn-changeRed010">
-            <label id="ChoiceRed010" for="">C. Royce</label><br>
-
-            <input type="radio" onclick="ExplainWrong10()" id="btn-changeRed0010">
-            <label id="ChoiceRed0010" for="">D. IBM</label>
-        </form>
-
-        <br>
-
-        <h3 onclick="Hint10()">Hint: </h3>
-        <h4 id="Explain010" class="Hint"></h4>
     </div>
 </div>
 
