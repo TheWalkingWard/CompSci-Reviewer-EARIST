@@ -1,3 +1,9 @@
+var ScoreCount = 0;
+
+function Scoring() {
+    document.getElementById("Score").innerHTML = ScoreCount;
+}
+
 function Hint1() {
     document.getElementById("Explain01").innerHTML = "collection of programmes";
 }
@@ -25,6 +31,9 @@ function ExplainWrong1() {
 }
 
 function ExplainCorrect1() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain01").innerHTML = "Yes! Software is a collection of programmes; it also includes documentation and data setup to enable the programmes to function. Microsoft windows, excel, word, powerpoint, etc. are a few examples of software.";
 
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
@@ -77,6 +86,9 @@ function ExplainWrong2() {
 }
 
 function ExplainCorrect2() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain02").innerHTML = "Correct answer C. Software engineering is the application of engineering principles to the design, development, and support of software and it helps to solve the challenges of low-quality software projects.";
 
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
@@ -129,6 +141,9 @@ function ExplainWrong3() {
 }
 
 function ExplainCorrect3() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain03").innerHTML = "Correct answer B. Watts S. Humphrey created the Software Process Program at Carnegie Mellon University’s Institute (SEI) in the 1980s, and served as its director from 1986 through the early 1990s. This program was designed to help participants understand and manage the software developement process.";
 
     document.getElementById("btn-changeRed3").className = "btn btn-danger";
@@ -181,6 +196,9 @@ function ExplainWrong4() {
 }
 
 function ExplainCorrect4() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain04").innerHTML = "Correct answer C. Modularity refers to the practice of breaking down a software system into smaller, independent, and interchangeable modules or components. Each module is designed to perform a specific function and can be developed, tested, and maintained separately. Modularity contributes to various aspects of software development.";
 
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
@@ -233,6 +251,9 @@ function ExplainWrong5() {
 }
 
 function ExplainCorrect5() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain05").innerHTML = "Correct answer D. A software dependency is an external independent library that can range in size from a single file to numerous files and directories arranged into packages to accomplish a specified purpose and is an attribute and not an engineering activity for process.";
 
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
@@ -285,6 +306,9 @@ function ExplainWrong6() {
 }
 
 function ExplainCorrect6() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain06").innerHTML = "Correct answer A. Agile scrum methodology is a style of project management that emphasizes incremental progress. Each iteration is divided into two to four-week sprints, with the goal of completing the most important features first and delivering a possibly deliverable product at the end of each sprint.";
 
     document.getElementById("btn-changeRed6").className = "btn btn-danger";
@@ -337,6 +361,9 @@ function ExplainWrong7() {
 }
 
 function ExplainCorrect7() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain07").innerHTML = "Correct answer A. Computer-Aided Software Engineering describes a broad set of labor-saving tools used in software development. They create a framework for managing projects and are intended to help users stay organized and improve productivity.";
 
     document.getElementById("btn-changeRed7").className = "btn btn-danger";
@@ -389,6 +416,9 @@ function ExplainWrong8() {
 }
 
 function ExplainCorrect8() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain08").innerHTML = "Correct answer B. Reverse engineering is used to uncover difficult, unknown, and hidden information about a software system.";
 
     document.getElementById("btn-changeRed8").className = "btn btn-danger";
@@ -441,6 +471,9 @@ function ExplainWrong9() {
 }
 
 function ExplainCorrect9() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain09").innerHTML = "Correct answer C. Software Development Life Cycle (SDLC) is a method for designing, developing, and testing high-quality software. The software developed to meet or exceed customer expectations must have an SDLC designed to complete the software on time and on budget.";
 
     document.getElementById("btn-changeRed9").className = "btn btn-danger";
@@ -493,6 +526,9 @@ function ExplainWrong10() {
 }
 
 function ExplainCorrect10() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain010").innerHTML = "Correct answer A. Spiral model by Boehm, is a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements. It implements the capability of quick production of new software versions.A. Spiral model by Boehm, is a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements. It implements the capability of quick production of new software versions.";
 
     document.getElementById("btn-changeRed10").className = "btn btn-danger";

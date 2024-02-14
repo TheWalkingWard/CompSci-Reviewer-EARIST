@@ -1,3 +1,9 @@
+var ScoreCount = 0;
+
+function Scoring() {
+    document.getElementById("Score").innerHTML = ScoreCount;
+}
+
 function Hint1() {
     document.getElementById("Explain01").innerHTML = "group of programs that run on electronic devices.";
 }
@@ -25,6 +31,9 @@ function ExplainWrong1() {
 }
 
 function ExplainCorrect1() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain01").innerHTML = "Correct! Application Software are a group of programs that run on electronic devices. These programs are designed for the user to carry out different tasks.";
 
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
@@ -44,6 +53,8 @@ function ExplainCorrect1() {
     document.getElementById("btn-changeRed001").disabled = true;
     document.getElementById("btn-changeGreen1").disabled = true;
     document.getElementById("Hint01").disabled = true;
+
+    
 }
 
 
@@ -77,6 +88,9 @@ function ExplainWrong2() {
 }
 
 function ExplainCorrect2() {
+    ScoreCount++;
+    Scoring();
+    
     document.getElementById("Explain02").innerHTML = "Yes! Address a place where a person or organization may be communicated with.";
 
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
@@ -129,6 +143,9 @@ function ExplainWrong3() {
 }
 
 function ExplainCorrect3() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain03").innerHTML = "Nice one! Python is often used as a support language for software developers, for build control and management, testing, and in many other ways.";
 
     document.getElementById("btn-changeRed3").className = "btn btn-danger";
@@ -181,6 +198,9 @@ function ExplainWrong4() {
 }
 
 function ExplainCorrect4() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain04").innerHTML = "Yeah! Cascading Style Sheets it's a stylesheet language used to add layout and visual effects to HTML elements. CSS is used specifically for markup languages, in this case HTML.";
 
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
@@ -233,6 +253,9 @@ function ExplainWrong5() {
 }
 
 function ExplainCorrect5() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain05").innerHTML = "Correct. Facebook is developed by Mark Elliot Zuckerberg.";
 
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
@@ -285,6 +308,9 @@ function ExplainWrong6() {
 }
 
 function ExplainCorrect6() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain06").innerHTML = "Yes! App development software the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.";
 
     document.getElementById("btn-changeRed6").className = "btn btn-danger";
@@ -337,6 +363,9 @@ function ExplainWrong7() {
 }
 
 function ExplainCorrect7() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain07").innerHTML = "Nice! Tapping in a mobile handset, an app is executed by tapping.";
 
     document.getElementById("btn-changeRed7").className = "btn btn-danger";
@@ -389,6 +418,9 @@ function ExplainWrong8() {
 }
 
 function ExplainCorrect8() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain08").innerHTML = "Yep. Calculator is a native app and hence, it can be used offline.";
 
     document.getElementById("btn-changeRed8").className = "btn btn-danger";
@@ -441,6 +473,9 @@ function ExplainWrong9() {
 }
 
 function ExplainCorrect9() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain09").innerHTML = "Yay! Application the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.";
 
     document.getElementById("btn-changeRed9").className = "btn btn-danger";
@@ -493,6 +528,9 @@ function ExplainWrong10() {
 }
 
 function ExplainCorrect10() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain010").innerHTML = "Yay! Google play Store is the official online store for digital media distributed by Google.";
 
     document.getElementById("btn-changeRed10").className = "btn btn-danger";
