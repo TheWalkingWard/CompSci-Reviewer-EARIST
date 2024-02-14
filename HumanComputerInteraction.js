@@ -1,9 +1,9 @@
 function Hint1() {
-    document.getElementById("Explain01").innerHTML = "";
+    document.getElementById("Explain01").innerHTML = "group of programs that run on electronic devices.";
 }
 
 function ExplainWrong1() {
-    document.getElementById("Explain01").innerHTML = "";
+    document.getElementById("Explain01").innerHTML = "The correct answer is C. Application Software are a group of programs that run on electronic devices. These programs are designed for the user to carry out different tasks.";
 
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
     document.getElementById("btn-changeRed01").className = "btn btn-danger";
@@ -25,10 +25,10 @@ function ExplainWrong1() {
 }
 
 function ExplainCorrect1() {
-    document.getElementById("Explain01").innerHTML = "";
+    document.getElementById("Explain01").innerHTML = "Correct! Application Software are a group of programs that run on electronic devices. These programs are designed for the user to carry out different tasks.";
 
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
-    document.getElementById("btn-changeRed01").className = "btn btn-danger";
+    document.getElementById("btn-changeRed01").className = "btn btn-danger"; 
     document.getElementById("btn-changeRed001").className = "btn btn-danger";
     document.getElementById("btn-changeGreen1").className = "btn btn-success";
 
@@ -51,11 +51,11 @@ function ExplainCorrect1() {
 
 
 function Hint2() {
-    document.getElementById("Explain02").innerHTML = "";
+    document.getElementById("Explain02").innerHTML = "a place where a person or organization";
 }
 
 function ExplainWrong2() {
-    document.getElementById("Explain02").innerHTML = "";
+    document.getElementById("Explain02").innerHTML = "Correct answer is B. Address a place where a person or organization may be communicated with.";
 
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
     document.getElementById("btn-changeRed02").className = "btn btn-danger";
@@ -77,7 +77,7 @@ function ExplainWrong2() {
 }
 
 function ExplainCorrect2() {
-    document.getElementById("Explain02").innerHTML = "";
+    document.getElementById("Explain02").innerHTML = "Yes! Address a place where a person or organization may be communicated with.";
 
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
     document.getElementById("btn-changeRed02").className = "btn btn-danger";
@@ -103,11 +103,11 @@ function ExplainCorrect2() {
 
 
 function Hint3() {
-    document.getElementById("Explain03").innerHTML = "";
+    document.getElementById("Explain03").innerHTML = "often used as a support language for software developers";
 }
 
 function ExplainWrong3() {
-    document.getElementById("Explain03").innerHTML = "";
+    document.getElementById("Explain03").innerHTML = "No! It's C. Python is often used as a support language for software developers, for build control and management, testing, and in many other ways.";
 
     document.getElementById("btn-changeRed3").className = "btn btn-danger";
     document.getElementById("btn-changeRed03").className = "btn btn-danger";
@@ -129,7 +129,7 @@ function ExplainWrong3() {
 }
 
 function ExplainCorrect3() {
-    document.getElementById("Explain03").innerHTML = "";
+    document.getElementById("Explain03").innerHTML = "Nice one! Python is often used as a support language for software developers, for build control and management, testing, and in many other ways.";
 
     document.getElementById("btn-changeRed3").className = "btn btn-danger";
     document.getElementById("btn-changeRed03").className = "btn btn-danger";
@@ -155,11 +155,11 @@ function ExplainCorrect3() {
 
 
 function Hint4() {
-    document.getElementById("Explain04").innerHTML = "";
+    document.getElementById("Explain04").innerHTML = "a stylesheet language used to add layout and visual effects to HTML elements.";
 }
 
 function ExplainWrong4() {
-    document.getElementById("Explain04").innerHTML = "";
+    document.getElementById("Explain04").innerHTML = "It's B! Cascading Style Sheets it's a stylesheet language used to add layout and visual effects to HTML elements. CSS is used specifically for markup languages, in this case HTML.";
 
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
     document.getElementById("btn-changeRed04").className = "btn btn-danger";
@@ -181,7 +181,7 @@ function ExplainWrong4() {
 }
 
 function ExplainCorrect4() {
-    document.getElementById("Explain04").innerHTML = "";
+    document.getElementById("Explain04").innerHTML = "Yeah! Cascading Style Sheets it's a stylesheet language used to add layout and visual effects to HTML elements. CSS is used specifically for markup languages, in this case HTML.";
 
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
     document.getElementById("btn-changeRed04").className = "btn btn-danger";
@@ -207,11 +207,11 @@ function ExplainCorrect4() {
 
 
 function Hint5() {
-    document.getElementById("Explain05").innerHTML = "";
+    document.getElementById("Explain05").innerHTML = "developed by Mark Elliot Zuckerberg.";
 }
 
 function ExplainWrong5() {
-    document.getElementById("Explain05").innerHTML = "";
+    document.getElementById("Explain05").innerHTML = "It's D! Facebook is developed by Mark Elliot Zuckerberg.";
 
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
     document.getElementById("btn-changeRed05").className = "btn btn-danger";
@@ -233,7 +233,7 @@ function ExplainWrong5() {
 }
 
 function ExplainCorrect5() {
-    document.getElementById("Explain05").innerHTML = "";
+    document.getElementById("Explain05").innerHTML = "Correct. Facebook is developed by Mark Elliot Zuckerberg.";
 
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
     document.getElementById("btn-changeRed05").className = "btn btn-danger";
@@ -259,11 +259,11 @@ function ExplainCorrect5() {
 
 
 function Hint6() {
-    document.getElementById("Explain06").innerHTML = "";
+    document.getElementById("Explain06").innerHTML = "process of planning, designing, creating, testing, and deploying a software application";
 }
 
 function ExplainWrong6() {
-    document.getElementById("Explain06").innerHTML = "";
+    document.getElementById("Explain06").innerHTML = "It's A. App development software the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.";
 
     document.getElementById("btn-changeRed6").className = "btn btn-danger";
     document.getElementById("btn-changeRed06").className = "btn btn-danger";
@@ -285,7 +285,7 @@ function ExplainWrong6() {
 }
 
 function ExplainCorrect6() {
-    document.getElementById("Explain06").innerHTML = "";
+    document.getElementById("Explain06").innerHTML = "Yes! App development software the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.";
 
     document.getElementById("btn-changeRed6").className = "btn btn-danger";
     document.getElementById("btn-changeRed06").className = "btn btn-danger";
@@ -311,11 +311,11 @@ function ExplainCorrect6() {
 
 
 function Hint7() {
-    document.getElementById("Explain07").innerHTML = "";
+    document.getElementById("Explain07").innerHTML = "mobile handset";
 }
 
 function ExplainWrong7() {
-    document.getElementById("Explain07").innerHTML = "";
+    document.getElementById("Explain07").innerHTML = "No, it's A. Tapping in a mobile handset, an app is executed by tapping.";
 
     document.getElementById("btn-changeRed7").className = "btn btn-danger";
     document.getElementById("btn-changeRed07").className = "btn btn-danger";
@@ -337,7 +337,7 @@ function ExplainWrong7() {
 }
 
 function ExplainCorrect7() {
-    document.getElementById("Explain07").innerHTML = "";
+    document.getElementById("Explain07").innerHTML = "Nice! Tapping in a mobile handset, an app is executed by tapping.";
 
     document.getElementById("btn-changeRed7").className = "btn btn-danger";
     document.getElementById("btn-changeRed07").className = "btn btn-danger";
@@ -363,11 +363,11 @@ function ExplainCorrect7() {
 
 
 function Hint8() {
-    document.getElementById("Explain08").innerHTML = "";
+    document.getElementById("Explain08").innerHTML = "native app and hence";
 }
 
 function ExplainWrong8() {
-    document.getElementById("Explain08").innerHTML = "";
+    document.getElementById("Explain08").innerHTML = "It's D! Calculator is a native app and hence, it can be used offline.";
 
     document.getElementById("btn-changeRed8").className = "btn btn-danger";
     document.getElementById("btn-changeRed08").className = "btn btn-danger";
@@ -389,7 +389,7 @@ function ExplainWrong8() {
 }
 
 function ExplainCorrect8() {
-    document.getElementById("Explain08").innerHTML = "";
+    document.getElementById("Explain08").innerHTML = "Yep. Calculator is a native app and hence, it can be used offline.";
 
     document.getElementById("btn-changeRed8").className = "btn btn-danger";
     document.getElementById("btn-changeRed08").className = "btn btn-danger";
@@ -415,11 +415,11 @@ function ExplainCorrect8() {
 
 
 function Hint9() {
-    document.getElementById("Explain09").innerHTML = "";
+    document.getElementById("Explain09").innerHTML = "the process of planning, designing, creating, testing, and deploying a software application ";
 }
 
 function ExplainWrong9() {
-    document.getElementById("Explain09").innerHTML = "";
+    document.getElementById("Explain09").innerHTML = "It's A! Application the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.";
 
     document.getElementById("btn-changeRed9").className = "btn btn-danger";
     document.getElementById("btn-changeRed09").className = "btn btn-danger";
@@ -441,7 +441,7 @@ function ExplainWrong9() {
 }
 
 function ExplainCorrect9() {
-    document.getElementById("Explain09").innerHTML = "";
+    document.getElementById("Explain09").innerHTML = "Yay! Application the process of planning, designing, creating, testing, and deploying a software application to perform various business operations.";
 
     document.getElementById("btn-changeRed9").className = "btn btn-danger";
     document.getElementById("btn-changeRed09").className = "btn btn-danger";
@@ -467,11 +467,11 @@ function ExplainCorrect9() {
 
 
 function Hint10() {
-    document.getElementById("Explain010").innerHTML = "";
+    document.getElementById("Explain010").innerHTML = "official online store";
 }
 
 function ExplainWrong10() {
-    document.getElementById("Explain010").innerHTML = "";
+    document.getElementById("Explain010").innerHTML = "It's A. Google play Store is the official online store for digital media distributed by Google.";
 
     document.getElementById("btn-changeRed10").className = "btn btn-danger";
     document.getElementById("btn-changeRed010").className = "btn btn-danger";
@@ -493,7 +493,7 @@ function ExplainWrong10() {
 }
 
 function ExplainCorrect10() {
-    document.getElementById("Explain010").innerHTML = "";
+    document.getElementById("Explain010").innerHTML = "Yay! Google play Store is the official online store for digital media distributed by Google.";
 
     document.getElementById("btn-changeRed10").className = "btn btn-danger";
     document.getElementById("btn-changeRed010").className = "btn btn-danger";
