@@ -1,3 +1,9 @@
+var ScoreCount = 0;
+
+function Scoring() {
+    document.getElementById("Score").innerHTML = ScoreCount;
+}
+
 function Hint1() {
     document.getElementById("Explain01").innerHTML = "fetched from the secondary memory and kept in the job queue by the job scheduler";
 }
@@ -25,6 +31,9 @@ function ExplainWrong1() {
 }
 
 function ExplainCorrect1() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain01").innerHTML = "Nice! New State A program is fetched from the secondary memory and kept in the job queue by the job scheduler, this state is called a new state.";
 
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
@@ -77,6 +86,9 @@ function ExplainWrong2() {
 }
 
 function ExplainCorrect2() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain02").innerHTML = "Yes! Terminated State is reached when a process completes its execution or terminates by the operating system.";
 
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
@@ -129,6 +141,9 @@ function ExplainWrong3() {
 }
 
 function ExplainCorrect3() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain03").innerHTML = "Correct! PCB Process Control Block in OS (PCB) is a data structure used by the operating system to manage information about a process.";
 
     document.getElementById("btn-changeRed3").className = "btn btn-danger";
@@ -181,6 +196,9 @@ function ExplainWrong4() {
 }
 
 function ExplainCorrect4() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain04").innerHTML = "Yes! Data is defined as programs or text and for this discussion is broken down into two classes: System data, which makes up the operating system and its extensions.";
 
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
@@ -233,6 +251,9 @@ function ExplainWrong5() {
 }
 
 function ExplainCorrect5() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain05").innerHTML = "Yup! Pointer are memory addresses of data objects in the operating system kernel or in the address space of a user process.";
 
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
@@ -285,6 +306,9 @@ function ExplainWrong6() {
 }
 
 function ExplainCorrect6() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain06").innerHTML = "Nice! Blocked State is a process transitions to a blocked state when it is waiting for some event, such as a resource becoming available or the completion of an I/O operation.";
 
     document.getElementById("btn-changeRed6").className = "btn btn-danger";
@@ -337,6 +361,9 @@ function ExplainWrong7() {
 }
 
 function ExplainCorrect7() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain07").innerHTML = "Nice! Terminated State reached when a process completes its execution or terminates by the operating system. In this state, the process no longer uses any system resources, and its memory space is deallocated.";
 
     document.getElementById("btn-changeRed7").className = "btn btn-danger";
@@ -389,6 +416,9 @@ function ExplainWrong8() {
 }
 
 function ExplainCorrect8() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain08").innerHTML = "Correct! Fatal is a type of error that forces a computer program to close or the entire operating system to shut down suddenly.";
 
     document.getElementById("btn-changeRed8").className = "btn btn-danger";
@@ -441,6 +471,9 @@ function ExplainWrong9() {
 }
 
 function ExplainCorrect9() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain09").innerHTML = "Yes! Service responsible for the management of platform resources, including the processor, memory, files, and input and output.";
 
     document.getElementById("btn-changeRed9").className = "btn btn-danger";
@@ -493,6 +526,9 @@ function ExplainWrong10() {
 }
 
 function ExplainCorrect10() {
+    ScoreCount++;
+    Scoring();
+
     document.getElementById("Explain010").innerHTML = "Correct! Register a type of computer memory built directly into the processor or CPU (Central Processing Unit) that is used to store and manipulate data during the execution of instructions. ";
 
     document.getElementById("btn-changeRed10").className = "btn btn-danger";
