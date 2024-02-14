@@ -1,9 +1,9 @@
 function Hint1() {
-    document.getElementById("Explain01").innerHTML = "";
+    document.getElementById("Explain01").innerHTML = "collection of programmes";
 }
 
 function ExplainWrong1() {
-    document.getElementById("Explain01").innerHTML = "";
+    document.getElementById("Explain01").innerHTML = "Wrong, it's A! Software is a collection of programmes; it also includes documentation and data setup to enable the programmes to function. Microsoft windows, excel, word, powerpoint, etc. are a few examples of software.";
 
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
     document.getElementById("btn-changeRed01").className = "btn btn-danger";
@@ -25,7 +25,7 @@ function ExplainWrong1() {
 }
 
 function ExplainCorrect1() {
-    document.getElementById("Explain01").innerHTML = "";
+    document.getElementById("Explain01").innerHTML = "Yes! Software is a collection of programmes; it also includes documentation and data setup to enable the programmes to function. Microsoft windows, excel, word, powerpoint, etc. are a few examples of software.";
 
     document.getElementById("btn-changeRed1").className = "btn btn-danger";
     document.getElementById("btn-changeRed01").className = "btn btn-danger";
@@ -51,11 +51,11 @@ function ExplainCorrect1() {
 
 
 function Hint2() {
-    document.getElementById("Explain02").innerHTML = "";
+    document.getElementById("Explain02").innerHTML = "application of engineering principles to the design";
 }
 
 function ExplainWrong2() {
-    document.getElementById("Explain02").innerHTML = "";
+    document.getElementById("Explain02").innerHTML = "Wrong it's C Software engineering is the application of engineering principles to the design, development, and support of software and it helps to solve the challenges of low-quality software projects.";
 
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
     document.getElementById("btn-changeRed02").className = "btn btn-danger";
@@ -77,7 +77,7 @@ function ExplainWrong2() {
 }
 
 function ExplainCorrect2() {
-    document.getElementById("Explain02").innerHTML = "";
+    document.getElementById("Explain02").innerHTML = "Correct answer C. Software engineering is the application of engineering principles to the design, development, and support of software and it helps to solve the challenges of low-quality software projects.";
 
     document.getElementById("btn-changeRed2").className = "btn btn-danger";
     document.getElementById("btn-changeRed02").className = "btn btn-danger";
@@ -103,11 +103,11 @@ function ExplainCorrect2() {
 
 
 function Hint3() {
-    document.getElementById("Explain03").innerHTML = "";
+    document.getElementById("Explain03").innerHTML = "Software Process Program at Carnegie Mellon University’s Institute (SEI) in the 1980s, and served as its director from 1986 through the early 1990s. ";
 }
 
 function ExplainWrong3() {
-    document.getElementById("Explain03").innerHTML = "";
+    document.getElementById("Explain03").innerHTML = "Wrong it's B. Watts S. Humphrey created the Software Process Program at Carnegie Mellon University’s Institute (SEI) in the 1980s, and served as its director from 1986 through the early 1990s. This program was designed to help participants understand and manage the software developement process.";
 
     document.getElementById("btn-changeRed3").className = "btn btn-danger";
     document.getElementById("btn-changeRed03").className = "btn btn-danger";
@@ -129,7 +129,7 @@ function ExplainWrong3() {
 }
 
 function ExplainCorrect3() {
-    document.getElementById("Explain03").innerHTML = "";
+    document.getElementById("Explain03").innerHTML = "Correct answer B. Watts S. Humphrey created the Software Process Program at Carnegie Mellon University’s Institute (SEI) in the 1980s, and served as its director from 1986 through the early 1990s. This program was designed to help participants understand and manage the software developement process.";
 
     document.getElementById("btn-changeRed3").className = "btn btn-danger";
     document.getElementById("btn-changeRed03").className = "btn btn-danger";
@@ -155,11 +155,11 @@ function ExplainCorrect3() {
 
 
 function Hint4() {
-    document.getElementById("Explain04").innerHTML = "";
+    document.getElementById("Explain04").innerHTML = "practice of breaking down a software system into smaller, independent, and interchangeable modules or components.";
 }
 
 function ExplainWrong4() {
-    document.getElementById("Explain04").innerHTML = "";
+    document.getElementById("Explain04").innerHTML = "Wrong it's C. Modularity refers to the practice of breaking down a software system into smaller, independent, and interchangeable modules or components. Each module is designed to perform a specific function and can be developed, tested, and maintained separately. Modularity contributes to various aspects of software development.";
 
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
     document.getElementById("btn-changeRed04").className = "btn btn-danger";
@@ -181,7 +181,7 @@ function ExplainWrong4() {
 }
 
 function ExplainCorrect4() {
-    document.getElementById("Explain04").innerHTML = "";
+    document.getElementById("Explain04").innerHTML = "Correct answer C. Modularity refers to the practice of breaking down a software system into smaller, independent, and interchangeable modules or components. Each module is designed to perform a specific function and can be developed, tested, and maintained separately. Modularity contributes to various aspects of software development.";
 
     document.getElementById("btn-changeRed4").className = "btn btn-danger";
     document.getElementById("btn-changeRed04").className = "btn btn-danger";
@@ -207,11 +207,11 @@ function ExplainCorrect4() {
 
 
 function Hint5() {
-    document.getElementById("Explain05").innerHTML = "";
+    document.getElementById("Explain05").innerHTML = "external independent library that can range in size from a single file to numerous files.";
 }
 
 function ExplainWrong5() {
-    document.getElementById("Explain05").innerHTML = "";
+    document.getElementById("Explain05").innerHTML = "Wrong answer it's D. A software dependency is an external independent library that can range in size from a single file to numerous files and directories arranged into packages to accomplish a specified purpose and is an attribute and not an engineering activity for process.";
 
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
     document.getElementById("btn-changeRed05").className = "btn btn-danger";
@@ -233,7 +233,7 @@ function ExplainWrong5() {
 }
 
 function ExplainCorrect5() {
-    document.getElementById("Explain05").innerHTML = "";
+    document.getElementById("Explain05").innerHTML = "Correct answer D. A software dependency is an external independent library that can range in size from a single file to numerous files and directories arranged into packages to accomplish a specified purpose and is an attribute and not an engineering activity for process.";
 
     document.getElementById("btn-changeRed5").className = "btn btn-danger";
     document.getElementById("btn-changeRed05").className = "btn btn-danger";
@@ -259,11 +259,11 @@ function ExplainCorrect5() {
 
 
 function Hint6() {
-    document.getElementById("Explain06").innerHTML = "";
+    document.getElementById("Explain06").innerHTML = "style of project management that emphasizes incremental progress.";
 }
 
 function ExplainWrong6() {
-    document.getElementById("Explain06").innerHTML = "";
+    document.getElementById("Explain06").innerHTML = "Wrong answer it's A. Agile scrum methodology is a style of project management that emphasizes incremental progress. Each iteration is divided into two to four-week sprints, with the goal of completing the most important features first and delivering a possibly deliverable product at the end of each sprint.";
 
     document.getElementById("btn-changeRed6").className = "btn btn-danger";
     document.getElementById("btn-changeRed06").className = "btn btn-danger";
@@ -285,7 +285,7 @@ function ExplainWrong6() {
 }
 
 function ExplainCorrect6() {
-    document.getElementById("Explain06").innerHTML = "";
+    document.getElementById("Explain06").innerHTML = "Correct answer A. Agile scrum methodology is a style of project management that emphasizes incremental progress. Each iteration is divided into two to four-week sprints, with the goal of completing the most important features first and delivering a possibly deliverable product at the end of each sprint.";
 
     document.getElementById("btn-changeRed6").className = "btn btn-danger";
     document.getElementById("btn-changeRed06").className = "btn btn-danger";
@@ -311,11 +311,11 @@ function ExplainCorrect6() {
 
 
 function Hint7() {
-    document.getElementById("Explain07").innerHTML = "";
+    document.getElementById("Explain07").innerHTML = "describes a broad set of labor-saving tools used in software development.";
 }
 
 function ExplainWrong7() {
-    document.getElementById("Explain07").innerHTML = "";
+    document.getElementById("Explain07").innerHTML = "Wrong it's A. Computer-Aided Software Engineering describes a broad set of labor-saving tools used in software development. They create a framework for managing projects and are intended to help users stay organized and improve productivity.";
 
     document.getElementById("btn-changeRed7").className = "btn btn-danger";
     document.getElementById("btn-changeRed07").className = "btn btn-danger";
@@ -337,7 +337,7 @@ function ExplainWrong7() {
 }
 
 function ExplainCorrect7() {
-    document.getElementById("Explain07").innerHTML = "";
+    document.getElementById("Explain07").innerHTML = "Correct answer A. Computer-Aided Software Engineering describes a broad set of labor-saving tools used in software development. They create a framework for managing projects and are intended to help users stay organized and improve productivity.";
 
     document.getElementById("btn-changeRed7").className = "btn btn-danger";
     document.getElementById("btn-changeRed07").className = "btn btn-danger";
@@ -363,11 +363,11 @@ function ExplainCorrect7() {
 
 
 function Hint8() {
-    document.getElementById("Explain08").innerHTML = "";
+    document.getElementById("Explain08").innerHTML = "used to uncover difficult.";
 }
 
 function ExplainWrong8() {
-    document.getElementById("Explain08").innerHTML = "";
+    document.getElementById("Explain08").innerHTML = "Wrong it's B. Reverse engineering is used to uncover difficult, unknown, and hidden information about a software system.";
 
     document.getElementById("btn-changeRed8").className = "btn btn-danger";
     document.getElementById("btn-changeRed08").className = "btn btn-danger";
@@ -389,7 +389,7 @@ function ExplainWrong8() {
 }
 
 function ExplainCorrect8() {
-    document.getElementById("Explain08").innerHTML = "";
+    document.getElementById("Explain08").innerHTML = "Correct answer B. Reverse engineering is used to uncover difficult, unknown, and hidden information about a software system.";
 
     document.getElementById("btn-changeRed8").className = "btn btn-danger";
     document.getElementById("btn-changeRed08").className = "btn btn-danger";
@@ -415,11 +415,11 @@ function ExplainCorrect8() {
 
 
 function Hint9() {
-    document.getElementById("Explain09").innerHTML = "";
+    document.getElementById("Explain09").innerHTML = "method for designing, developing, and testing high-quality software.";
 }
 
 function ExplainWrong9() {
-    document.getElementById("Explain09").innerHTML = "";
+    document.getElementById("Explain09").innerHTML = "Wrong it's C. Software Development Life Cycle (SDLC) is a method for designing, developing, and testing high-quality software. The software developed to meet or exceed customer expectations must have an SDLC designed to complete the software on time and on budget.";
 
     document.getElementById("btn-changeRed9").className = "btn btn-danger";
     document.getElementById("btn-changeRed09").className = "btn btn-danger";
@@ -441,7 +441,7 @@ function ExplainWrong9() {
 }
 
 function ExplainCorrect9() {
-    document.getElementById("Explain09").innerHTML = "";
+    document.getElementById("Explain09").innerHTML = "Correct answer C. Software Development Life Cycle (SDLC) is a method for designing, developing, and testing high-quality software. The software developed to meet or exceed customer expectations must have an SDLC designed to complete the software on time and on budget.";
 
     document.getElementById("btn-changeRed9").className = "btn btn-danger";
     document.getElementById("btn-changeRed09").className = "btn btn-danger";
@@ -467,11 +467,11 @@ function ExplainCorrect9() {
 
 
 function Hint10() {
-    document.getElementById("Explain010").innerHTML = "";
+    document.getElementById("Explain010").innerHTML = "a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements.";
 }
 
 function ExplainWrong10() {
-    document.getElementById("Explain010").innerHTML = "";
+    document.getElementById("Explain010").innerHTML = "Wrong answer it's A. Spiral model by Boehm, is a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements. It implements the capability of quick production of new software versions.";
 
     document.getElementById("btn-changeRed10").className = "btn btn-danger";
     document.getElementById("btn-changeRed010").className = "btn btn-danger";
@@ -493,7 +493,7 @@ function ExplainWrong10() {
 }
 
 function ExplainCorrect10() {
-    document.getElementById("Explain010").innerHTML = "";
+    document.getElementById("Explain010").innerHTML = "Correct answer A. Spiral model by Boehm, is a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements. It implements the capability of quick production of new software versions.A. Spiral model by Boehm, is a software process model that combines prototyping’s iterative characteristic with the linear sequential model’s regulated and systematic elements. It implements the capability of quick production of new software versions.";
 
     document.getElementById("btn-changeRed10").className = "btn btn-danger";
     document.getElementById("btn-changeRed010").className = "btn btn-danger";
